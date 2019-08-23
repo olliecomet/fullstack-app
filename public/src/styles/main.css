@@ -153,3 +153,11 @@ footer {
     justify-content: center;
     padding: 5px;
 }
+
+/* placeholder content for main */
+
+.intro {
+    background-color: goldenrod;
+    height: 475px;
+    margin: 30px;
+}
