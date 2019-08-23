@@ -4,44 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Series List</title>
+    <title>Bookshelf</title>
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="stylesheet" href="./src/styles/series-list.css">
 </head>
 <body>
     <header>
-        <img src="" alt="placeholder logo">
-        <h1>Series List</h1>
-    </header>
+        <img src="./assets/logo.png" alt="Book Logo">
+        <h1>Home</h1>
 
-    <section class="container">
         <nav>
             <ul class="nav-ul">
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./series-list.html">Series List</a></li>
+                <li><a href="./series-list.html">Bookshelf</a></li>
                 <li><a href="./series-form.html">Add Series</a></li>
             </ul>
         </nav>
+    </header>
 
-        <div class="options-container">
+    <section class="options-container">
+        <!-- <div class="options-container"> -->
             <form>
-                <input type="search" name="search" id="search">
-                <button id="search-button">Search</button>
+                <input class="option" type="search" name="search" id="search">
+                <button class="option" id="search-button">Search</button>
             </form>
 
-            <select name="filter" id="filter">
+            <select class="option" name="filter" id="filter">
                 <option value="all">All</option>
                 <option value="ongoing">Ongoing</option>
                 <option value="completed">Completed</option>
             </select>
 
-            <select name="sort" id="sort">
+            <select class="option" name="sort" id="sort">
                 <option value="all">All</option>
                 <option value="most-chapters">Most Chapters</option>
                 <option value="least-chapters">Least Chapters</option>
             </select>
-        </div>
+        <!-- </div> -->
     </section>
 
     <main>

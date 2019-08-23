@@ -9,31 +9,21 @@ body {
 
 header {
     background-color: #aaa;
+    display: flex;
+    justify-content: space-between;
     height: 100px;
     min-width: 550px;
 }
 
 header img {
-    float: left;
+    height: 80px;
+    margin: 10px;
 }
 
 header h1 {
     font-size: 50px;
-    text-align: center;
     margin: 0;
-    padding-top: 15px;
-}
-
-/* navigation and options positioning */
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: #aaa;
-    padding: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    min-width: 550px;
+    margin-top: 20px;
 }
 
 /* nav styles */
@@ -42,15 +32,13 @@ nav {
     background-color: pink;
     padding: 10px;
     border: 5px solid black;
-    margin-right: 5px;
 }
 
 .nav-ul {
     list-style: none;
-    display: inline-block;
     margin: 0;
     padding: 0;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .nav-ul li {
@@ -65,29 +53,23 @@ nav {
     background-color: blue;
     padding: 10px;
     border: 5px solid black; 
-    margin-right: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0; 
 } 
 
-.options-container form {
-    margin: 5px;
+.option {
+    padding: 3px;
 }
 
-.options-container input {
-    height: 30px;
-    width: 150px;
-}
-
-.options-container button {
-    padding: 5px;
+button.option {
+    width: 80px;
     font-size: 15px;
     font-weight: bold;
-    width: 70px;
 }
 
-.options-container select {
-    margin: 5px;
-    height: 25px;
-    width: 110px;
+select.option {
+    width: 150px;
 }
 
 /* series list item styles */
