@@ -1,0 +1,155 @@
+/* general styles */
+
+body {
+    margin: 0;
+    background-color: wheat;
+}
+
+/* header */
+
+header {
+    background-color: #aaa;
+    height: 100px;
+    min-width: 550px;
+}
+
+header img {
+    float: left;
+}
+
+header h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+/* navigation and options positioning */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #aaa;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    min-width: 550px;
+}
+
+/* nav styles */
+
+nav {
+    background-color: pink;
+    padding: 10px;
+    border: 5px solid black;
+    margin-right: 5px;
+}
+
+.nav-ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    padding-top: 15px;
+}
+
+.nav-ul li {
+    display: inline-block;
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* options styles */
+
+.options-container {
+    background-color: blue;
+    padding: 10px;
+    border: 5px solid black; 
+    margin-right: 5px;
+} 
+
+.options-container form {
+    margin: 5px;
+}
+
+.options-container input {
+    height: 30px;
+    width: 150px;
+}
+
+.options-container button {
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70px;
+}
+
+.options-container select {
+    margin: 5px;
+    height: 25px;
+    width: 110px;
+}
+
+/* series list item styles */
+
+.series-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+}
+
+.series-list li {
+    background-color: #aaa;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 15px;
+    background-color: orange;
+}
+
+.image-container {
+    background-color: blueviolet;
+    margin: 5px;
+    min-width: 200px;
+    min-height: 250px;
+}
+
+.text-container {
+    background-color: greenyellow;
+    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    min-width: 250px;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.text-container h2 {
+    margin: 5px;
+}
+
+.text-container h3 {
+    margin: 10px;
+}
+
+/* footer styles */
+
+footer {
+    background-color: #aaa;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}

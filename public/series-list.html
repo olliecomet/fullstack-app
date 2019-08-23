@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Series List</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/series-list.css">
 </head>
 <body>
     <header>
@@ -14,7 +17,7 @@
 
     <section class="container">
         <nav>
-            <ul>
+            <ul class="nav-ul">
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./series-list.html">Series List</a></li>
                 <li><a href="./series-form.html">Add Series</a></li>
@@ -22,7 +25,7 @@
         </nav>
 
         <div class="options-container">
-            <form action="">
+            <form>
                 <input type="search" name="search" id="search">
                 <button id="search-button">Search</button>
             </form>
@@ -42,67 +45,75 @@
     </section>
 
     <main>
-        <ul>
+        <ul class="series-list">
             <li>
-                <div>
-                    <img src="" alt="placeholder image">
-                </div>
-
-                <div>
-                    <h2>Title</h2>
-                    <h3>Author</h3>
-                    <p>Genre:</p>
-                    <p>Chapters:</p>
-                    <p>Ongoing:</p>
-                </div>
+                <div class="flex-container">
+                    <div class="image-container">
+                        <img src="" alt="placeholder image">
+                    </div>
+        
+                    <div class="text-container">
+                        <h2>Title: Ollie's Book</h2>
+                        <h3>Author: Olliennnn Comet</h3>
+                        <p>Genre: Slice of Life</p>
+                        <p>Chapters: 0</p>
+                        <p>Ongoing: Yes</p>
+                    </div>
+                </div> 
             </li>
 
             <li>
-                <div>
-                    <img src="" alt="placeholder image">
-                </div>
-
-                <div>
-                    <h2>Title</h2>
-                    <h3>Author</h3>
-                    <p>Genre:</p>
-                    <p>Chapters:</p>
-                    <p>Ongoing:</p>
-                </div>
+                <div class="flex-container">
+                    <div class="image-container">
+                        <img src="" alt="placeholder image">
+                    </div>
+        
+                    <div class="text-container">
+                        <h2>Title: bluh aahhd bluh bluh </h2>
+                        <h3>Author</h3>
+                        <p>Genre:</p>
+                        <p>Chapters:</p>
+                        <p>Ongoing:</p>
+                    </div>
+                </div> 
+            </li>
+            
+            <li>
+                <div class="flex-container">
+                    <div class="image-container">
+                        <img src="" alt="placeholder image">
+                    </div>
+        
+                    <div class="text-container">
+                        <h2>Title</h2>
+                        <h3>Author</h3>
+                        <p>Genre:</p>
+                        <p>Chapters:</p>
+                        <p>Ongoing:</p>
+                    </div>
+                </div> 
             </li>
 
             <li>
-                <div>
-                    <img src="" alt="placeholder image">
-                </div>
-
-                <div>
-                    <h2>Title</h2>
-                    <h3>Author</h3>
-                    <p>Genre:</p>
-                    <p>Chapters:</p>
-                    <p>Ongoing:</p>
-                </div>
+                <div class="flex-container">
+                    <div class="image-container">
+                        <img src="" alt="placeholder image">
+                    </div>
+        
+                    <div class="text-container">
+                        <h2>Title</h2>
+                        <h3>Author</h3>
+                        <p>Genre:</p>
+                        <p>Chapters:</p>
+                        <p>Ongoing:</p>
+                    </div>
+                </div> 
             </li>
-
-            <li>
-                <div>
-                    <img src="" alt="placeholder image">
-                </div>
-
-                <div>
-                    <h2>Title</h2>
-                    <h3>Author</h3>
-                    <p>Genre:</p>
-                    <p>Chapters:</p>
-                    <p>Ongoing:</p>
-                </div>
-            </li>
-
-            <footer>
-                <p>&copy Ollie's Bookshelf 2019</p>
-            </footer>
         </ul>
     </main>
+
+    <footer>
+        <p>&copy Ollie's Bookshelf 2019</p>
+    </footer>
 </body>
 </html>
