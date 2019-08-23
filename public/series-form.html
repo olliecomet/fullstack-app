@@ -5,8 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Series Form</title>
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/series-form.css">
 </head>
 <body>
+    <header>
+        <img src="" alt="placeholder logo">
+        <h1>Series Entry Form</h1>
+    </header>
+
+    <section class="container">
+        <nav>
+            <ul class="nav-ul">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./series-list.html">Series List</a></li>
+                <li><a href="./series-form.html">Add Series</a></li>
+            </ul>
+        </nav>
+    </section>
     
+    <main>
+        <form id="series-form">
+            <p>
+                <label for="title">Title:</label>
+                <input type="text" name="title" id="title">
+            </p>
+            
+            <p>
+                <label for="author">Author:</label>
+                <input type="text" name="author" id="author">
+            </p>
+
+            <p>
+                <label for="genre">Genre:</label>
+                <input type="text" name="genre" id="genre">
+            </p>
+
+            <p>
+                <label for="chapters">Chapters:</label>
+                <input type="number" name="chapters" id="chapters" step="1" min="0">
+            </p>
+
+            <p>
+                <fieldset>
+                    <legend>Ongoing:</legend>
+
+                    <label>
+                        <input type="radio" name="ongoing" value="yes">Yes
+                    </label>
+
+                    <label>
+                        <input type="radio" name="ongoing" value="no">No
+                    </label>
+                </fieldset>
+            </p>
+
+            <p>
+                <fieldset>
+                    <legend>Medium:</legend>
+            
+                    <label>
+                        <input type="checkbox" value="anime" name="anime">Anime
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="manga" name="manga">Manga
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="webcomic" name="webcomic">Webcomic
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="manhua" name="manhua">Manhua
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="light-novel" name="light-novel">Light Novel
+                    </label>
+
+                    <label>
+                        <input type="checkbox" value="other" name="other">Other
+                    </label>    
+                </fieldset>
+            </p>
+
+            <p>
+                <label for="description">Description:</label>
+                <textarea name="description" id="description" cols="80" rows="5"></textarea>
+            </p>
+
+            <p>
+                <button>Add Series</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy Ollie's Bookshelf 2019</p>
+    </footer>
 </body>
 </html>
