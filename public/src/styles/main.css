@@ -2,12 +2,12 @@
 
 body {
     margin: 0;
-    background-color: wheat;
+    background-color: #7ec4cf;
 }
 
 h1, h2, h3 {
     font-family: "Arial Black";
-    /* color: plum; */
+    color: navy;
 }
 
 p, a {
@@ -17,11 +17,12 @@ p, a {
 /* header */
 
 header {
-    background-color: #aaa;
+    background-color: lightgreen;
     display: flex;
     justify-content: space-between;
     height: 100px;
     min-width: 550px;
+    border-bottom: 10px solid lightseagreen;
 }
 
 header img {
@@ -60,7 +61,7 @@ nav {
 /* options styles */
 
 .options-container {
-    background-color: lightseagreen;
+    background-color: navy;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -94,25 +95,25 @@ select.option {
 }
 
 .series-list li {
-    background-color: #aaa;
+    background-color: lightseagreen;
     display: inline-block;
     padding: 10px;
     margin: 10px;
     max-width: 500px;
     max-height: 500px;
-    /* border: 5px solid green; */
+    border: 5px solid navy;
+    border-radius: 20px;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-evenly; 
     padding: 15px;
-    background-color: aliceblue;
-    border: 5px solid pink;
+    background-color: lightgreen;
+    border-radius: 10px;
 }
 
 .image-container {
-    /* background-color: blueviolet; */
     margin: 5px;
     min-width: 200px;
     min-height: 250px;
@@ -126,12 +127,10 @@ select.option {
 }
 
 .text-container {
-    /* background-color: greenyellow; */
     padding: 5px;
     text-align: center;
     margin: 5px;
     min-width: 250px;
-    /* border: 5px solid pink; */
 }
 
 .text-container p {
@@ -150,16 +149,19 @@ select.option {
 /* footer styles */
 
 footer {
-    background-color: #aaa;
+    background-color: lightseagreen;
     display: flex;
     justify-content: center;
     padding: 5px;
+    margin-top: 10px;
 }
 
 /* placeholder content for main */
 
 .intro {
-    background-color: goldenrod;
-    height: 475px;
+    background-color: lightgreen;
+    height: 700px;
     margin: 30px;
+    border: 5px solid navy; 
+    border-radius: 20px;
 }

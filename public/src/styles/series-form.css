@@ -4,18 +4,30 @@ main {
 }
 
 #series-form {
-    margin: 15px;
-    background-color: aliceblue;
     padding: 20px;
     text-align: center;
-    width: 625px;
-    height: 700px;
+    width: 700px;
+    max-height: 1000px;
     font-size: 25px;
-    border: 5px solid navy;
+    background-color: lightgreen;
+    height: 700px;
+    margin: 30px;
+    border: 5px solid navy; 
+    border-radius: 20px;
 }
 
 #series-form button {
     width: 200px;
     height: 30px;
     font-size: 20px;
+}
+
+input[type='checkbox']{
+    width: 30px;
+    height: 20px;
+}
+
+input[type="radio"] {
+    transform: scale(1.75); 
+    margin: 10px;
 }
