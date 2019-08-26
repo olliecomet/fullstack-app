@@ -1,23 +1,22 @@
 import Component from '../Component.js';
 
-// h1 value changes depending on page
-// how do I do that dynamically? ${}
-
-class Header extends component {
+class Header extends Component {
     renderHTML(){
-        return /*html*/`
-        <header>
-            <img src="./assets/logo.png" alt="Book Logo">
-            <h1></h1>
+        const title = this.props.title || 'Home';
 
-            <nav>
-                <ul class="nav-ul">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./series-list.html">Bookshelf</a></li>
-                    <li><a href="./series-form.html">Add Series</a></li>
-                </ul>
-            </nav>
-        </header>
+        return /*html*/`
+            <header>
+                <img src="./assets/logo.png" alt="Book Logo">
+                <h1>${title}</h1>
+
+                <nav>
+                    <ul class="nav-ul">
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./series-list.html">Bookshelf</a></li>
+                        <li><a href="./series-form.html">Add Series</a></li>
+                    </ul>
+                </nav>
+            </header>
         `;
     }
 }
