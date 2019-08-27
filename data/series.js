@@ -6,7 +6,7 @@ module.exports = [
         ongoing: true,
         genre: 'Fantasy',
         medium: 'Manhua',
-        url: ''
+        url: '../public/assets/tower-of-god.jpg'
     },
     {   
         title: 'unOrdinary',
@@ -15,7 +15,7 @@ module.exports = [
         ongoing: true,
         genre: 'Fanatasy',
         medium: 'Webcomic',
-        url: '.'
+        url: '../public/assets/unordinary.jpg'
     },
     {   
         title: 'The Devil is a Handsome Man',
@@ -24,7 +24,7 @@ module.exports = [
         ongoing: true,
         genre: 'romance',
         medium: 'webcomic',
-        url: ''
+        url: '../public/assets/the-devil-is-a-handsome-man.jpg'
     },
     {   
         title: 'Bomic: A Bom Comic',
@@ -33,7 +33,7 @@ module.exports = [
         ongoing: true,
         genre: 'Romance',
         medium: 'Webcomic',
-        url: ''
+        url: '../public/assets/bomic.jpg'
     },
     {   
         title: 'Project Shade',
@@ -42,7 +42,7 @@ module.exports = [
         ongoing: true,
         genre: 'Action',
         medium: 'webcomic',
-        url: '',
+        url: '../public/assets/project-shade.jpg',
     },
     {   
         title: 'Ava\'s Demon',
@@ -51,7 +51,7 @@ module.exports = [
         ongoing: true,
         genre: 'Fantasy',
         medium: 'Webcomic',
-        url: '',
+        url: '../public/assets/ava.jpg',
     },
     {   
         title: 'Distant Sky',
@@ -60,7 +60,7 @@ module.exports = [
         ongoing: false,
         genre: 'Thriller',
         medium: 'Manhua',
-        url: ''
+        url: '../public/assets/distant-sky.jpg'
     },
     {   
         title: 'The Girl From the Other Side: Siúil, a Rún',
@@ -69,7 +69,7 @@ module.exports = [
         ongoing: true,
         genre: 'Fantasy',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/the-girl-from-the-other-side.jpg'
     },
     {   
         title: 'Letter Bee',
@@ -78,7 +78,7 @@ module.exports = [
         ongoing: false,
         genre: 'Adventure',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/letter-bee.jpg'
     },
     {   
         title: 'Claymore',
@@ -87,7 +87,7 @@ module.exports = [
         ongoing: false,
         genre: 'Adventure',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/claymore.jpg'
     },
     {   
         title: 'Dungeon Meshi',
@@ -96,7 +96,7 @@ module.exports = [
         ongoing: true,
         genre: 'Comedy',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/dungeon-meshi.jpg'
     },
     {   
         title: 'Noragami: Stray God',
@@ -105,7 +105,7 @@ module.exports = [
         ongoing: true,
         genre: 'Action',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/noragami.jpg'
     },
     {   
         title: 'Saturn Apartments',
@@ -114,7 +114,7 @@ module.exports = [
         ongoing: false,
         genre: 'Science Fiction',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/saturn-apartments.jpg'
     },
     {   
         title: 'Houseki no Kuni',
@@ -123,7 +123,7 @@ module.exports = [
         ongoing: true,
         genre: 'Fantasy',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/houseki-no-kuni.jpg'
     },
     {   
         title: 'Natsume\'s Book of Friends',
@@ -132,7 +132,7 @@ module.exports = [
         ongoing: true,
         genre: 'Supernatural',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/natsume.jpg'
     },
     {   
         title: 'X/1999',
@@ -141,7 +141,7 @@ module.exports = [
         ongoing: false,
         genre: 'Thriller',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/x.jpg'
     },
     {   
         title: 'The Morose Mononokean',
@@ -150,7 +150,7 @@ module.exports = [
         ongoing: true,
         genre: 'Supernatural',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/the-morose-mononokean.jpg'
     },
     {   
         title: 'Bleach',
@@ -159,7 +159,7 @@ module.exports = [
         ongoing: false,
         genre: 'Action',
         medium: 'Manga',
-        url: ''
+        url: '../public/assets/bleach.jpg'
     },
     {   
         title: 'Tanpopo',
@@ -168,7 +168,7 @@ module.exports = [
         ongoing: true,
         genre: 'Fantasy',
         medium: 'Graphic Novel',
-        url: ''
+        url: '../public/assets/tanpopo.jpg'
     },
     {   
         title: 'Kabuki: The Alchemy',
@@ -177,7 +177,7 @@ module.exports = [
         ongoing: false,
         genre: 'Action',
         medium: 'Graphic Novel',
-        url: ''
+        url: '../public/assets/kabuki.jpg'
     },
     {   
         title: 'Wet Moon',
@@ -186,6 +186,6 @@ module.exports = [
         ongoing: false,
         genre: 'Slice of Life',
         medium: 'Graphic Novel',
-        url: ''
+        url: '../public/assets/wet-moon.jpg'
     }
 ];
